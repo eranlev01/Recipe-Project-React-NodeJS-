@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  height: 100vh;
+  background: url('/Wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
+  
+}
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+#dish-select{
+  text-align: center;
+  padding: 10px;
+  width: 390px;
+  
+}
+option{
+  margin: 0 auto;
+  border: 0px;
+}
+.recepies{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 500px;
+  padding: 20px;
+  margin: 30px auto 50px auto;
+  background-color: rgb(250, 221, 160,0.65);
+}
+.recepies > h1{
+  font-size: 50px;
+  background-color: rgb(250, 221, 160,0.65);
+}
+
+#form-div{
+  margin: 0 auto 50px auto;
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+}
+.form, .form > input {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  margin: 5px;
+  width: 100%;
+  border: none;
+}
+textarea{ 
+  height: 100px;
+  width: 100%;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.btn {
+  margin-top: 10px;
+  background-color: rgb(250, 221, 160);
+}
+
+
+
